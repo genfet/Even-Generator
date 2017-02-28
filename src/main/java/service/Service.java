@@ -14,6 +14,5 @@ import javax.inject.Singleton;
 @Singleton
 public interface Service {
 
-    @EvenService
     EvenFactory get();
 }
